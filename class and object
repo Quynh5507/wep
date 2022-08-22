@@ -1,0 +1,97 @@
+# class banhsu:
+#     mau="vang"
+#     vi="chanh day"
+#     hinh_dang="tron"
+# bs=banhsu
+# print("banh su co mau: ",bs.mau)
+# print("banh co vi: ",bs.vi)
+# print("banh co hinh: ",bs.hinh_dang)
+
+# class banhsu:
+#     def __init__(self,para_mau,para_vi,para_hinh_dang):
+#         self.mau=para_mau
+#         self.vi=para_vi
+#         self.hinh_dang=para_hinh_dang
+
+# # bs= banhsu("vang","chanh day","tron")
+#     def info(self):
+#         print("mau cua banh su la: ",self.mau)
+#         print("vi cua banh su la: ",self.vi)
+#         print("banh su co hinh: ",self.hinh_dang)
+
+# bs=banhsu("vang","chanh day","tron")
+# bs.info()
+# bs1=banhsu("do","dua hau","vuong")
+# bs1.info()
+
+# class car:
+#     def __init__(self,para_hang,para_mau_sac,para_gia_tien):
+#         self.hang=para_hang
+#         self.mau_sac=para_mau_sac
+#         self.gia_tien=para_gia_tien
+#     def info(self):
+#         print("hang xe la: ",self.hang)
+#         print("xe co mau: ",self.mau_sac)
+#         print("xe gia: ",self.gia_tien)
+# xe1=car("honda","trang","500")
+# xe1.info()
+# xe2=car("audie","den","600")
+# xe2.info()
+
+# pi= 3.14159
+# class hinh_tron:
+#     def __init__(self,para_ban_kinh,para_pi):
+#         self.ban_kinh=para_ban_kinh
+#         self.pi=para_pi
+#     def info1(self):
+#         print("chu vi hinh tron la: ",self.ban_kinh*self.pi*2)
+#         print("dien tich cua hinh tron la: ",self.ban_kinh**2*self.pi)
+# ht=hinh_tron(5,pi)
+# ht.info1()
+
+# class hinh_chu_nhat:
+#     def __init__(self,para_chieu_dai,para_chieu_rong):
+#         self.chieu_dai=para_chieu_dai
+#         self.chieu_rong=para_chieu_rong
+#     def info2(self):
+#         print("chu vi hinh chu nhat la: ",(self.chieu_dai+self.chieu_rong)*2)
+#         print("dien tich cua hinh chu nhat la: ",self.chieu_dai*self.chieu_rong)
+# hcn=hinh_chu_nhat(2,3)
+# hcn.info2()
+
+# class hinh_tam_giac:
+#     def __init__(self,para_canh):
+#         self.canh=para_canh
+#     def chuvi(self):
+#         result=self.canh*3
+#         print("chu vi hinh tam giac la: ",result)
+#     def dientich(self):
+#         result1=self.canh*chieu_cao
+#         print("dien tich cua hinh tam giac la: ",result1)
+# chieu_cao=input("vui long nhap chieu cao hinh tam giac: ")
+# htg=hinh_tam_giac(4)
+# htg.chuvi()
+# htg.dientich()
+
+from tkinter import *
+window=Tk()
+window.title("weeee")
+window.minsize(height=600,width=700)
+window=Text()
+window.pack()
+
+
+
+
+
+
+
+
+
+
+
+
+window.mainloop()
+
+
+    

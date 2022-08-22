@@ -1,0 +1,62 @@
+# from tkinter import *
+# win =Tk()
+# win.title("wee")
+# def save():
+#     file=open("wee.txt","w")
+#     file.write(Txt.get(1.0,END))
+#     file.close()
+# def renew():
+#     Txt.delete(1.0,END)
+
+# bt=Button(text="save",command=save)
+# win.iconbitmap("fox-logo-01.ico")
+# label=Label(text="welcome to tkinter")
+# label.pack()
+# Txt=Text(height=20,width=30)
+# Txt.pack()
+# img=PhotoImage(file="media_1.png")
+# img=Label(height=10,width=10,image=img)
+# menu=Menu()
+
+# fileMenu=Menu(menu)
+# fileMenu.add_command(label="save",command=save)
+# fileMenu.add_command(label="renew",command=renew)
+# menu.add_cascade(label="file",menu=fileMenu)
+# menu.add_cascade(label="edit")
+# menu.add_cascade(label="view")
+# menu.add_cascade(label="insert")
+# win.config(menu=menu)
+# win.mainloop()
+
+# from tkinter import *
+# win=Tk()
+# win.title("chuyen tien")
+# win.minsize(height=20,width=30)
+
+# def ct():
+#     vnd=float(tien.get())
+#     usd=float(tien1.get())
+#     usd=vnd*23
+#     result["text"]=finally
+
+
+
+
+
+from tkinter import *
+win=Tk()
+win.title("BMI calculator")
+win.minsize(height=150,width=200)
+def BMI_def():
+    kg=float(wt.get())
+    m=float(ht.get())
+    BMI=kg/m/m
+    result["text"]=f"BMI:{BMI}"
+
+    lb1=Label(text="weight")
+    lb1.pack()
+
+    wt=Entry()
+    wt.pack()
+
+    lb2=Label(text="height")
